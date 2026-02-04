@@ -5,10 +5,6 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/posts", (req, res) => {
-  res.send("Post Route...");
-});
-
 app.get("/description", (req, res) => {
   res.send("Description Route...");
 });
