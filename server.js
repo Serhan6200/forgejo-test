@@ -9,8 +9,8 @@ app.get("/description", (req, res) => {
   res.send("Description Route...");
 });
 
-app.post("/description", (req, res) => {
-  res.send("Description Route...");
+app.post("/post", (req, res) => {
+  res.send("Post Route...");
 });
 
 app.listen(4000, () => {
